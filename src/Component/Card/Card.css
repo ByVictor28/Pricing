@@ -1,0 +1,67 @@
+
+/* CARD */
+.Card{
+    height: 45rem;
+    width: 30rem;
+    text-align: center;
+    background: var(--color3);
+    font-style: italic;
+    border-radius: 1rem;
+    transition: transform 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Card:hover{
+    transform: scale(1.1);
+}
+.Special{
+    height: 55rem;
+}
+
+.Card .Header{
+    background: var(--color2);
+    padding: 2rem 0;
+    font-weight: bold;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-size: 3rem;
+}
+.Card .Details{
+    padding: 2rem 1rem;
+}
+.Card .Details .Price{
+    font-size: 4rem;
+    display: block;
+    margin: 1rem;
+} 
+
+.Card .Details .Price .Days{
+    font-size: 2rem;
+}
+
+.Card .Details .List{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.List li{
+    margin: 1rem 0;
+}
+
+.Footer{
+    padding-bottom: 2rem;
+}
+.Button{
+    background: var(--color2);
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: all 1s ease;
+}
+.Button:hover{
+    background: var(--color4);
+    color: var(--color1);
+}

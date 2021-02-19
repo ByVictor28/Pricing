@@ -1,10 +1,26 @@
+:root{
+  --color1:#1b262c;
+  --color2:#0f4c75;
+  --color3:#3282b8;
+  --color4:#bbe1fa;
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
+  background: var(--color1);
+  color: var(--color4);
 }
 
 code {
