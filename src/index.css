@@ -1,8 +1,8 @@
 :root{
-  --color1:#1b262c;
+  --color4:#1b262c;
   --color2:#0f4c75;
   --color3:#3282b8;
-  --color4:#bbe1fa;
+  --color1:#bbe1fa;
 }
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -21,9 +21,4 @@ body {
   font-size: 1.6rem;
   background: var(--color1);
   color: var(--color4);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
